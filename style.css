@@ -1,8 +1,6 @@
 :root {
   --paper: #F6F3EA;
   --card: #FBF9F3;
-  --ruling: rgba(159, 180, 200, 0.35);
-  --ruling-major: rgba(159, 180, 200, 0.55);
   --graphite: #33363A;
   --soft: #6B6E73;
   --pencil: #2D5A9E;
@@ -12,8 +10,6 @@
   :root {
     --paper: #1C1E21;
     --card: #25282C;
-    --ruling: rgba(80, 92, 106, 0.45);
-    --ruling-major: rgba(90, 104, 120, 0.6);
     --graphite: #DEDAD0;
     --soft: #9C9A93;
     --pencil: #8DB3EC;
@@ -27,12 +23,6 @@ body {
   color: var(--graphite);
   font: 18px/1.6 "New York", "Iowan Old Style", Georgia, "Times New Roman", serif;
   background-color: var(--paper);
-  background-image:
-    linear-gradient(var(--ruling-major) 1px, transparent 1px),
-    linear-gradient(90deg, var(--ruling-major) 1px, transparent 1px),
-    linear-gradient(var(--ruling) 1px, transparent 1px),
-    linear-gradient(90deg, var(--ruling) 1px, transparent 1px);
-  background-size: 95px 95px, 95px 95px, 19px 19px, 19px 19px;
 }
 main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
 header { margin-bottom: 28px; }
